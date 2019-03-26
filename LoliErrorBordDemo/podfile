@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+target 'LoliErrorBordDemo' do
+  pod 'AFNetworking', '~> 2.6'
+  
+  
+  project_path = '..'
+  pod 'LoliErrorBord',      :path => "#{project_path}/"   #通讯录
+
+end

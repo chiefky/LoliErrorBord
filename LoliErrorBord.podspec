@@ -48,6 +48,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/chiefky/LoliErrorBord.git", :tag => "#{spec.version}" }
+  # spec.frameworks   = "UIKit", "Foundation" #支持的框架
+  spec.platform     = :ios, "7.0" #平台及支持的最低版本
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
